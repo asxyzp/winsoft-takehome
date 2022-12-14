@@ -1,0 +1,51 @@
+/* TEXT CONTAINER STYLES */
+.text-container{
+	font-family: sans-serif;
+	text-align: center;
+    width: 900px;
+    margin: 0px auto;
+}
+.text-container > .title{
+    width: 700px;
+    margin: 20px auto 0px;
+}
+.text-container > .sub-title{
+    width: 700px;
+    margin: 10px auto 20px;
+}
+
+/* CANVAS STYLES */
+canvas{
+    display: block;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 900px;
+    height: 900px;
+    margin-bottom: 20px;
+}
+
+/* LINK STYLES */
+.link-container{
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* MOBILE VIEW */
+@media(max-width: 900px){
+    .text-container{
+        width: 95%;
+    }
+    .text-container > .title{
+        width: 100%;
+    }
+    .text-container > .sub-title{
+        width: 100%;
+    }
+    canvas{
+        width: 95%;
+        height: 95%;
+        margin: 0px auto;
+    }
+}
